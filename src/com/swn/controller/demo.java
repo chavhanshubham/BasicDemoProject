@@ -14,12 +14,13 @@ public class demo {
 	    static void printDuplicateNumbers(int[] numbers) {
 	        Map<Integer, Integer> numberFrequencyMap = new HashMap();
 
-	        // Count the frequency of each number
+	       
 	        for (int num : numbers) {
 	            numberFrequencyMap.put(num, numberFrequencyMap.getOrDefault(num, 0) + 1);
 	        }
 
-	        // Print duplicate numbers
+	       
+	        
 	        System.out.println("Duplicate numbers:");
 	        for (Map.Entry<Integer, Integer> entry : numberFrequencyMap.entrySet()) {
 	            if (entry.getValue() > 1) {
