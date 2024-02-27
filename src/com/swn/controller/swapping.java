@@ -14,6 +14,7 @@ public class swapping {
 	        num1 = num1 - num2;
 
 	        System.out.println("After swapping: num1 = " + num1 + ", num2 = " + num2);
+              System.out.println("its a msg");
 	    }
 	}
 
